@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>ect. project - 기타 각종 프로젝트</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/pdfmain.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="ect.html" class="active">ECT.</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">요리레시피 프로그램 2022.03~06</h1>
+							<h2>관련 자료</h2>
+							<div>
+								<img  src="images/recipe.jpg" alt="">
+								
+							</div>
+							<p> 요리 레시피 검색 편의를 위해 <br> 만개의 레시피, 백종원 요리 레시피 url, 쿠팡 재료 링크 등<br> 크롤링을 통하여 DB에 저장 후 재료를 선택하여 레시피 고르기, <br> 각종 요리 레시피 유튜브 시청, <br> 필요한 재료를 검색하여 가격 및 정보와 연결링크 등 다양한 기능을 추가하였습니다. </p>
+
+							
+							</p>
+
+							<h2> 담당 업무</h3>
+								<ul>
+									<li> 프로젝트 주제 선정</li>
+									<li> 요리 레시피 크롤링, 쿠팡 요리 재료 크롤링</li>
+									<li> DB 설계 및 관리</li>
+									<li> SceneBuilder를 이용한 front-end 개발</li>
+								</ul>
+								<br>
+								<h2> 구체적인 구현 기능</h3>
+									<ul>
+										<ul class="decimal">프로젝트 주제 선정
+											<li class="hyphone"> 팀원과 각자 주제를 발표하며 투표로 주제 선정
+											</li>
+										</ul>
+										<ul class="decimal"> 요리 레시피 크롤링, 쿠팡 요리 재료 크롤링
+											<li class="hyphone"> python으로 beautifulsoup를 이용하여 만개의 레시피, 쿠팡 크롤링</li>
+											<li class="hyphone"> 마트 위치 검색을 위해 공공데이터 사이트의 api이용</li>
+										</ul>
+										<ul class="decimal"> DB 설계 및 관리
+											<li class="hyphone"> mySQL을 이용하여 DB 설계 및 관리</li>
+											<li class="hyphone"> 크롤링한 데이터를 DB에 넣어줄 자바프로그램 개발</li>
+	
+										</ul>
+										<ul class="decimal"> SceneBuilder를 이용한 front-end 개발
+											<li class="hyphone"> swing을 사용해야하는 제약으로 인해 SceneBuilder를 이용한 fxml파일 제작</li>
+											
+										</ul>
+										
+	
+									</ul>
+
+							<h2> 사용 기술 </h2>
+							<ul>
+								<li>개발 언어 : java</li>
+								<li>개발 툴킷 : java swing</li>
+								<li>프레임워크 : spring</li>
+								<li>DBMS : MySQL</li>
+							</ul>
+
+							<h2>산출물</h2>
+							<ul>
+								<li>주제 제안 ppt</li>
+								<li>중간보고서</li>
+								<li>최종보고서</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+		<footer id="footer" class="wrapper alt">
+			<div class="inner">
+				<ul class="menu">
+					<li>Blog : <a href = "https://flen-e.github.io/">블로그</a></li><li>Github: <a href="https://github.com/Flen-E">깃허브</a></li>
+				</ul>
+			</div>
+		</footer>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+<script>
+   var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+       
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+    
+        setTimeout(showSlides, 2000); // 2초마다 이미지가 체인지됩니다
+    }
+</script>
